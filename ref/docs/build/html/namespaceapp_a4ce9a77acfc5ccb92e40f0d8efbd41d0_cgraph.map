@@ -1,0 +1,15 @@
+<map id="app._init_sidebar" name="app._init_sidebar">
+<area shape="rect" id="Node000001" title="Inicializa escolhas de entidade, limites de montante e período por defeito." alt="" coords="5,55,139,80"/>
+<area shape="rect" id="Node000002" href="$namespaceapp.html#a6c0d0336cb013fd4aef718bf19d58dcb" title=" " alt="" coords="187,55,276,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,65,173,65,173,70,139,70"/>
+<area shape="rect" id="Node000003" href="$namespaceapp.html#a8d16aaf8c5500c7a11a7d697c38de731" title=" " alt="" coords="324,5,493,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,52,349,32,350,37,277,58"/>
+<area shape="rect" id="Node000004" href="$namespaceapp.html#a18e46ef6e58b9299bcc7c7d3d63368b1" title=" " alt="" coords="340,55,477,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="276,65,326,65,326,70,276,70"/>
+<area shape="rect" id="Node000007" href="$namespaceapp.html#aceebba1402c6a66730e82c939dbd42d1" title=" " alt="" coords="325,104,492,129"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="277,77,350,98,349,103,276,82"/>
+<area shape="rect" id="Node000005" href="$namespaceapp.html#addaec30611cceb35e3d34c83d2d2200d" title="Lê um ficheiro PS2 e devolve um DataFrame com linhas de detalhe (Tipo 2)." alt="" coords="541,55,684,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="478,65,527,65,527,70,478,70"/>
+<area shape="rect" id="Node000006" href="$namespaceapp.html#a979467ec3d7015ad0fdff74605b5cf7a" title="Tenta ler o ficheiro com várias codificações." alt="" coords="732,47,879,87"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="684,65,718,65,718,70,684,70"/>
+</map>

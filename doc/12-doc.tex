@@ -1,0 +1,205 @@
+\documentclass[11pt,a4paper]{report}
+
+% =====================================================
+% Pacotes
+% =====================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\geometry{left=3cm,right=3cm,top=3cm,bottom=3cm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+% =====================================================
+% Bibliografia (biblatex + biber)
+% =====================================================
+\usepackage{biblatex}
+\addbibresource{referencias.bib} % ficheiro .bib
+
+% Espaçamento entre linhas
+\linespread{1.1}
+
+% =====================================================
+% Código
+% =====================================================
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    showstringspaces=false
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan
+}
+
+% =====================================================
+% Documento
+% =====================================================
+\title{
+\textbf{Dashboard Interativo para Análise de Débitos Diretos}\\
+\large Laboratórios de Informática -- LESI 2025/26
+}
+
+\author{
+Henrique Pereira (35009)\\
+Rodrigo Correia (35008)\\
+António Torres (35002)\\
+Dinis Moreira (36742)
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+\setcounter{page}{2}
+
+% =========================================
+% Página 3: juntar todas as listas numa só página
+% =========================================
+\begingroup
+\let\clearpage\relax  % impede quebras de página automáticas temporariamente
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
+\endgroup  % restaura \clearpage automaticamente
+
+% =====================================================
+\chapter{Introdução}
+% =====================================================
+Este relatório apresenta o desenvolvimento de um dashboard interativo para análise de débitos diretos, realizado no âmbito da unidade curricular de Laboratórios de Informática. O projeto teve como objetivo principal a leitura, validação e visualização de dados provenientes de ficheiros no formato PS2, permitindo uma análise clara e interativa da informação financeira.
+
+A aplicação foi desenvolvida em Python e Shiny, utilizando princípios do paradigma funcional e boas práticas de desenvolvimento colaborativo \cite{python,shiny}. Para algumas tarefas de programação assistida e sugestões de código, recorreu-se a ferramentas de Inteligência Artificial como ChatGPT e GitHub Copilot \cite{chatgpt,copilot}. O trabalho apoiou-se nos slides fornecidos pelo professor \cite{slides}.
+
+\section{Objetivos}
+Os principais objetivos deste trabalho são:
+\begin{itemize}
+    \item Desenvolver um dashboard interativo para análise de débitos diretos;
+    \item Processar e validar ficheiros no formato PS2;
+    \item Aplicar o paradigma funcional/declarativo;
+    \item Utilizar boas práticas de desenvolvimento colaborativo;
+    \item Produzir documentação técnica clara e estruturada em LaTeX \cite{lamport1994latex}.
+\end{itemize}
+
+\newpage
+
+% =====================================================
+\chapter{Análise do Problema}
+% =====================================================
+\section{Formato PS2}
+O formato PS2 é um padrão utilizado na comunicação entre empresas e instituições bancárias, usando registos de largura fixa, comumente aplicado em operações de débito direto.
+
+\section{Estrutura dos Registos}
+Os ficheiros PS2 contêm três tipos principais de registos:
+\begin{description}
+    \item[Tipo 1 -- Cabeçalho] Contém informações gerais sobre o ficheiro;
+    \item[Tipo 2 -- Detalhe] Representa cada operação individual;
+    \item[Tipo 9 -- Fim/Rodapé] Permite o fecho do ficheiro.
+\end{description}
+
+\section{Exemplo de Ficheiro PS2}
+\begin{lstlisting}[caption={Exemplo de ficheiro PS2}]
+120251026IPCA Energy 50123456700000000045375000002
+2000000100100350651000025874125423568914200000000024750
+2000000100200330000452108745961550184592300000000020625
+900000000045375000002
+\end{lstlisting}
+
+\newpage
+
+% =====================================================
+\chapter{Desenvolvimento}
+% =====================================================
+\section{Arquitetura da Solução}
+A solução foi desenvolvida com uma arquitetura modular.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+level distance=1.5cm,
+level 1/.style={sibling distance=4cm}
+]
+\node {Dashboard}
+child {node {Leitura}}
+child {node {Validação}}
+child {node {Visualização}};
+\end{tikzpicture}
+\caption{Arquitetura modular da solução}
+\end{figure}
+
+\section{Processamento de Ficheiros}
+O processamento dos ficheiros PS2 foi implementado com funções puras.
+
+\begin{lstlisting}[language=Python, caption={Processamento de ficheiro PS2}]
+def processar_ficheiro_ps2(caminho):
+    with open(caminho, 'r') as f:
+        linhas = f.readlines()
+    return linhas
+\end{lstlisting}
+
+\section{Validação de Dados}
+A validação assegura que o ficheiro PS2 apresenta uma estrutura adequada e que os totais coincidam corretamente.
+
+\section{Tecnologias Utilizadas}
+\begin{table}[H]
+\centering
+\caption{Tecnologias utilizadas}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Tecnologia} & \textbf{Finalidade} \\ \hline
+Python & Processamento de dados \\ \hline
+Shiny & Dashboard interativo \\ \hline
+Git/GitHub & Controlo de versões \\ \hline
+LaTeX & Documentação \\ \hline
+\end{tabular}
+\end{table}
+
+
+\section{Tarefas Realizadas}
+\textbf{Henrique Pereira}: Como líder do grupo, participei ativamente na organização e estrutura do projeto desde o início. Trabalhei no dashboard desde o início ao fim, passando por diversas fases e versões. Durante o desenvolvimento estive presente em diversas funções como a implementação de soluções em Python, documentação em Doxygen, relatório codificado em Latex, entre outros. Na reta final garanti que o README.md estava devidamente atualizado e que todas as implementações estavam funcionais. \\
+\textbf{Rodrigo Correia}: Contribuí para um bocado de tudo mas foquei me principalmente no desenvolvimento do relatório, troubleshooting, ideias de implementação e/ou otimização e desenvolvimento do dashboard. Na reta final decidi ficar mais focado na finalização do relatório já que estava atrasado. \\
+\textbf{António Torres}: Durante o projeto, fui um dos  responsáveis pela criação e desenvolvimento do Dashboard. Contribuí para o desenvolvimento das funções de leitura e validação. Na fase final, devido à indisponibilidade temporária do meu computador, apoiei a equipa através de pesquisas externas que permitiram otimizar o código e melhorar o relatório \\
+\textbf{Dinis Moreira}: Ao longo do projeto estive envolvido principalmente em tarefas de pesquisa, troubleshooting e validação do código. Contribuí para o desenvolvimento da função de leitura e implementei funções de validação para garantir a correção dos dados. Participei ativamente na elaboração e revisão do relatório. Na fase final, aprofundei a documentação com doxygen e dei apoio com ideias e melhorias para o dashboard. \\
+
+\section{Dificuldades}
+\textbf{Henrique Pereira}: Utilização adequada do Doxygen \\
+\textbf{Rodrigo Correia}: Dificuldade em encontrar informação relativamente ao syntax/erros do LaTeX \\
+\textbf{António Torres}: Desafios relacionados com a implementação de código em Python \\
+\textbf{Dinis Moreira}: Utilização adequada do Doxygen, implementação de código na biblioteca Shiny \\
+\newpage
+
+% =====================================================
+\chapter{Resultados e Conclusão}
+% =====================================================
+O dashboard desenvolvido permite a visualização interativa dos débitos diretos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{/home/vboxuser/Desktop/dashboard_final.png} % Substitua pelo caminho da tua imagem
+\caption{Interface do dashboard desenvolvido}
+\end{figure}
+
+O trabalho atingiu os objetivos definidos, consolidando conhecimentos de programação em Python, desenvolvimento de dashboards interativos e trabalho colaborativo com o GitHub. Para trabalhos futuros, podem ser implementadas funcionalidades adicionais, como suporte a novos formatos de ficheiros e análises preditivas.
+
+\newpage
+
+% =====================================================
+% Bibliografia
+% =====================================================
+\printbibliography[heading=bibintoc,title={Bibliografia}]
+
+\end{document}

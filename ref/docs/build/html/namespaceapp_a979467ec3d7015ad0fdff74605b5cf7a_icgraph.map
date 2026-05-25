@@ -1,0 +1,29 @@
+<map id="app.read_text_with_fallback" name="app.read_text_with_fallback">
+<area shape="rect" id="Node000001" title="Tenta ler o ficheiro com várias codificações." alt="" coords="899,97,1045,137"/>
+<area shape="rect" id="Node000002" href="$namespaceapp.html#addaec30611cceb35e3d34c83d2d2200d" title="Lê um ficheiro PS2 e devolve um DataFrame com linhas de detalhe (Tipo 2)." alt="" coords="708,104,851,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="885,119,851,119,851,114,885,114"/>
+<area shape="rect" id="Node000003" href="$namespaceapp.html#a18e46ef6e58b9299bcc7c7d3d63368b1" title=" " alt="" coords="523,104,660,129"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="694,119,660,119,660,114,694,114"/>
+<area shape="rect" id="Node000004" href="$namespaceapp.html#a6c0d0336cb013fd4aef718bf19d58dcb" title=" " alt="" coords="385,104,475,129"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="509,119,475,119,475,114,509,114"/>
+<area shape="rect" id="Node000005" href="$namespaceapp.html#a4ce9a77acfc5ccb92e40f0d8efbd41d0" title="Inicializa escolhas de entidade, limites de montante e período por defeito." alt="" coords="196,55,329,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="372,103,306,83,308,78,374,97"/>
+<area shape="rect" id="Node000006" href="$namespaceapp.html#a11b76b8cec732df07a79b0a12582d6bd" title="Efeito para recarregar cálculos reativos quando input.recarregar é acionado." alt="" coords="213,104,312,129"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="371,119,313,119,313,114,371,114"/>
+<area shape="rect" id="Node000007" href="$namespaceapp.html#a9b29ad1b664e81ea36570c3e5aa63d56" title=" " alt="" coords="188,153,337,179"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="374,136,308,156,306,151,372,131"/>
+<area shape="rect" id="Node000008" href="$namespaceapp.html#a963b46203ba73807296baac4d740c0f6" title="Gráfico de linhas por cliente (Top&#45;N)." alt="" coords="5,5,140,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="195,149,186,143,168,117,161,92,155,68,138,44,121,33,124,28,142,40,160,66,166,91,173,115,190,139,198,145"/>
+<area shape="rect" id="Node000009" href="$namespaceapp.html#afea4e09126d48a522a8ce4c3d8412c07" title="Gráfico de barras: total por entidade." alt="" coords="21,55,125,80"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="200,150,187,143,171,130,162,118,153,106,139,94,116,82,119,78,141,89,157,102,166,114,175,127,189,138,203,146"/>
+<area shape="rect" id="Node000010" href="$namespaceapp.html#a73fc501f69ddd06ee7b1a5cb0c7bccea" title="Gráfico de linha: evolução mensal (total)." alt="" coords="17,104,128,129"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="199,152,122,132,123,127,201,147"/>
+<area shape="rect" id="Node000011" href="$namespaceapp.html#af5f9985e000218860030d03f0a0ba981" title="Mostra o número de operações no período/filters aplicados." alt="" coords="23,153,123,179"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="174,169,123,169,123,163,174,163"/>
+<area shape="rect" id="Node000012" href="$namespaceapp.html#a4c6aa2acdafd987e9b6a4ff53e69f71b" title="Mostra o custo médio por operação (ticket médio)." alt="" coords="16,203,129,228"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="201,185,123,205,122,200,199,180"/>
+<area shape="rect" id="Node000013" href="$namespaceapp.html#a0d956cb58e86086b4dff0fb1ba8a90f3" title="Mostra o total (€) no período/filters aplicados." alt="" coords="19,252,126,277"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="232,189,141,242,112,254,109,250,139,237,230,184"/>
+<area shape="rect" id="Node000014" href="$namespaceapp.html#a7aa4abbb740d6d7e9cd94d42102912cb" title="Tabela detalhada com colunas formatadas e validação." alt="" coords="27,301,118,327"/>
+<area shape="poly" id="edge13_Node000007_Node000014" title=" " alt="" coords="245,191,201,241,173,267,141,291,116,304,114,299,139,286,169,263,197,237,241,188"/>
+</map>

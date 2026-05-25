@@ -1,0 +1,17 @@
+<map id="app.graf_mes" name="app.graf_mes">
+<area shape="rect" id="Node000001" title="Gráfico de linha: evolução mensal (total)." alt="" coords="5,55,116,80"/>
+<area shape="rect" id="Node000002" href="$namespaceapp.html#a9b29ad1b664e81ea36570c3e5aa63d56" title=" " alt="" coords="164,55,313,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,65,150,65,150,70,116,70"/>
+<area shape="rect" id="Node000003" href="$namespaceapp.html#a6c0d0336cb013fd4aef718bf19d58dcb" title=" " alt="" coords="361,55,451,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="314,65,348,65,348,70,314,70"/>
+<area shape="rect" id="Node000004" href="$namespaceapp.html#a8d16aaf8c5500c7a11a7d697c38de731" title=" " alt="" coords="499,5,668,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="450,52,524,32,525,37,452,58"/>
+<area shape="rect" id="Node000005" href="$namespaceapp.html#a18e46ef6e58b9299bcc7c7d3d63368b1" title=" " alt="" coords="515,55,652,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="451,65,501,65,501,70,451,70"/>
+<area shape="rect" id="Node000008" href="$namespaceapp.html#aceebba1402c6a66730e82c939dbd42d1" title=" " alt="" coords="500,104,667,129"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="452,77,525,98,524,103,450,82"/>
+<area shape="rect" id="Node000006" href="$namespaceapp.html#addaec30611cceb35e3d34c83d2d2200d" title="Lê um ficheiro PS2 e devolve um DataFrame com linhas de detalhe (Tipo 2)." alt="" coords="716,55,859,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="652,65,702,65,702,70,652,70"/>
+<area shape="rect" id="Node000007" href="$namespaceapp.html#a979467ec3d7015ad0fdff74605b5cf7a" title="Tenta ler o ficheiro com várias codificações." alt="" coords="907,47,1053,87"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="859,65,893,65,893,70,859,70"/>
+</map>

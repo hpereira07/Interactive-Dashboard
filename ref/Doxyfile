@@ -1,0 +1,50 @@
+
+# Doxygen configuration for PS2 Direct Debits dashboard (Python)
+PROJECT_NAME           = "Débitos Diretos (PS2)"
+PROJECT_BRIEF          = "Dashboard em Shiny para Python + parser PS2"
+OUTPUT_DIRECTORY       = docs/build
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+
+# Input
+INPUT                  = app.py docs
+FILE_PATTERNS          = *.py *.md
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+OPTIMIZE_OUTPUT_JAVA   = YES
+CASE_SENSE_NAMES       = NO
+
+# Mostrar código-fonte e relações
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+GENERATE_TREEVIEW      = YES
+
+# --- Graphviz / DOT ---
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
+DIRECTORY_GRAPH        = YES
+DOT_IMAGE_FORMAT       = svg
+DOT_GRAPH_MAX_NODES    = 200
+MAX_DOT_GRAPH_DEPTH    = 0
+DOT_PATH               =
+
+# Markdown como página principal
+USE_MDFILE_AS_MAINPAGE = docs/mainpage.md
+MARKDOWN_SUPPORT       = YES
+
+# Filtro para Python (requer: pip install doxypypy)
+FILTER_PATTERNS        = *.py=doxypypy -a -c
+
+# Estilo
+HTML_DYNAMIC_SECTIONS  = YES
+TOC_INCLUDE_HEADINGS   = 3
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES

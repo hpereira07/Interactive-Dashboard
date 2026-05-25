@@ -1,0 +1,3 @@
+doc/*
+!doc/12-doc.tex
+!doc/12-doc.pdf

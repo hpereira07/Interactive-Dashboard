@@ -1,0 +1,15 @@
+<map id="app._reload" name="app._reload">
+<area shape="rect" id="Node000001" title="Efeito para recarregar cálculos reativos quando input.recarregar é acionado." alt="" coords="5,55,104,80"/>
+<area shape="rect" id="Node000002" href="$namespaceapp.html#a6c0d0336cb013fd4aef718bf19d58dcb" title=" " alt="" coords="152,55,241,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,65,138,65,138,70,104,70"/>
+<area shape="rect" id="Node000003" href="$namespaceapp.html#a8d16aaf8c5500c7a11a7d697c38de731" title=" " alt="" coords="289,5,459,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,52,314,32,316,37,242,58"/>
+<area shape="rect" id="Node000004" href="$namespaceapp.html#a18e46ef6e58b9299bcc7c7d3d63368b1" title=" " alt="" coords="305,55,443,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="242,65,291,65,291,70,242,70"/>
+<area shape="rect" id="Node000007" href="$namespaceapp.html#aceebba1402c6a66730e82c939dbd42d1" title=" " alt="" coords="291,104,457,129"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="242,77,316,98,314,103,241,82"/>
+<area shape="rect" id="Node000005" href="$namespaceapp.html#addaec30611cceb35e3d34c83d2d2200d" title="Lê um ficheiro PS2 e devolve um DataFrame com linhas de detalhe (Tipo 2)." alt="" coords="507,55,649,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="443,65,493,65,493,70,443,70"/>
+<area shape="rect" id="Node000006" href="$namespaceapp.html#a979467ec3d7015ad0fdff74605b5cf7a" title="Tenta ler o ficheiro com várias codificações." alt="" coords="697,47,844,87"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="650,65,683,65,683,70,650,70"/>
+</map>

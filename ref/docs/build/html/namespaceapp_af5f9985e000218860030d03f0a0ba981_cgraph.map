@@ -1,0 +1,17 @@
+<map id="app.kpi_ops" name="app.kpi_ops">
+<area shape="rect" id="Node000001" title="Mostra o número de operações no período/filters aplicados." alt="" coords="5,55,105,80"/>
+<area shape="rect" id="Node000002" href="$namespaceapp.html#a9b29ad1b664e81ea36570c3e5aa63d56" title=" " alt="" coords="153,55,303,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,65,140,65,140,70,105,70"/>
+<area shape="rect" id="Node000003" href="$namespaceapp.html#a6c0d0336cb013fd4aef718bf19d58dcb" title=" " alt="" coords="351,55,440,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,65,337,65,337,70,303,70"/>
+<area shape="rect" id="Node000004" href="$namespaceapp.html#a8d16aaf8c5500c7a11a7d697c38de731" title=" " alt="" coords="488,5,657,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="440,52,513,32,514,37,441,58"/>
+<area shape="rect" id="Node000005" href="$namespaceapp.html#a18e46ef6e58b9299bcc7c7d3d63368b1" title=" " alt="" coords="504,55,641,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="440,65,490,65,490,70,440,70"/>
+<area shape="rect" id="Node000008" href="$namespaceapp.html#aceebba1402c6a66730e82c939dbd42d1" title=" " alt="" coords="489,104,656,129"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="441,77,514,98,513,103,440,82"/>
+<area shape="rect" id="Node000006" href="$namespaceapp.html#addaec30611cceb35e3d34c83d2d2200d" title="Lê um ficheiro PS2 e devolve um DataFrame com linhas de detalhe (Tipo 2)." alt="" coords="705,55,848,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="642,65,691,65,691,70,642,70"/>
+<area shape="rect" id="Node000007" href="$namespaceapp.html#a979467ec3d7015ad0fdff74605b5cf7a" title="Tenta ler o ficheiro com várias codificações." alt="" coords="896,47,1043,87"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="848,65,882,65,882,70,848,70"/>
+</map>

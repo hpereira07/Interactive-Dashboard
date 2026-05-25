@@ -1,0 +1,15 @@
+<map id="app.dados_filtrados" name="app.dados_filtrados">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,155,80"/>
+<area shape="rect" id="Node000002" href="$namespaceapp.html#a6c0d0336cb013fd4aef718bf19d58dcb" title=" " alt="" coords="203,55,292,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,65,189,65,189,70,155,70"/>
+<area shape="rect" id="Node000003" href="$namespaceapp.html#a8d16aaf8c5500c7a11a7d697c38de731" title=" " alt="" coords="340,5,509,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="292,52,365,32,366,37,293,58"/>
+<area shape="rect" id="Node000004" href="$namespaceapp.html#a18e46ef6e58b9299bcc7c7d3d63368b1" title=" " alt="" coords="356,55,493,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="292,65,342,65,342,70,292,70"/>
+<area shape="rect" id="Node000007" href="$namespaceapp.html#aceebba1402c6a66730e82c939dbd42d1" title=" " alt="" coords="341,104,508,129"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="293,77,366,98,365,103,292,82"/>
+<area shape="rect" id="Node000005" href="$namespaceapp.html#addaec30611cceb35e3d34c83d2d2200d" title="Lê um ficheiro PS2 e devolve um DataFrame com linhas de detalhe (Tipo 2)." alt="" coords="557,55,700,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="494,65,543,65,543,70,494,70"/>
+<area shape="rect" id="Node000006" href="$namespaceapp.html#a979467ec3d7015ad0fdff74605b5cf7a" title="Tenta ler o ficheiro com várias codificações." alt="" coords="748,47,895,87"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="700,65,734,65,734,70,700,70"/>
+</map>
